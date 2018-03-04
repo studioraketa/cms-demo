@@ -16,9 +16,9 @@
     lodash "^4.2.0"
     to-fast-properties "^2.0.0"
 
-"@raketa-cms/raketa-cms@^1.0.2":
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/@raketa-cms/raketa-cms/-/raketa-cms-1.0.2.tgz#fb723b6a335589c69bd433e59ec9725ddf4f1b25"
+"@raketa-cms/raketa-cms@ssh://git@git.raketadesign.com:6969/raketa/raketa-cms.git":
+  version "1.0.1"
+  resolved "ssh://git@git.raketadesign.com:6969/raketa/raketa-cms.git#515b335e25acd65d98d9d93afd0bf13286c05642"
   dependencies:
     jquery "^3.3.1"
     prop-types "^15.6.1"

@@ -5,7 +5,7 @@
     "start": "next dev"
   },
   "dependencies": {
-    "@raketa-cms/raketa-cms": "^1.0.2",
+    "@raketa-cms/raketa-cms": "ssh://git@git.raketadesign.com:6969/raketa/raketa-cms.git",
     "@zeit/next-sass": "^0.1.1",
     "babel-plugin-styled-components": "^1.5.1",
     "next": "^5.0.0",
