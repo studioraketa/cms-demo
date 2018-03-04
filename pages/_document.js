@@ -15,6 +15,7 @@ export default class MyDocument extends Document {
         <Head>
           <title>My page</title>
           {this.props.styleTags}
+          <link rel="stylesheet" href="/_next/static/style.css" />
         </Head>
         <body>
           <Main />

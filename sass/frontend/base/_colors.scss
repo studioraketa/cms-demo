@@ -1,0 +1,37 @@
+// Colors
+$grey-light: #f1f0ef;
+$grey-middle-1: #d5d3d3;
+$grey-middle-2: #9e9d9c;
+$grey-dark: #535251;
+$black: #000;
+$white: #fff;
+$light-gray: #efefef;
+$mid-gray: #606060;
+$mid-gray-alt: #989898;
+$dark-gray: #212121;
+$dark-gray-alt: #5F5F5F;
+
+$red: #bd0010;
+$green: #76bd2a;
+$yellow: #ff9e14;
+$blue: #00abd5;
+$orange: #f38447;
+
+.light-bg,
+.white-bg {
+  color: $black;
+
+  a { color: $black; }
+}
+
+.white-bg { background-color: $white; }
+.light-bg { background-color: $light-gray; }
+
+.dark-bg {
+  background-color: #212121;
+  color: $white;
+
+  a { color: $white; }
+
+  .muted { color: $grey-middle-2; }
+}

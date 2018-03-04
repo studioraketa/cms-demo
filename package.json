@@ -6,8 +6,10 @@
   },
   "dependencies": {
     "@raketa-cms/raketa-cms": "^1.0.2",
+    "@zeit/next-sass": "^0.1.1",
     "babel-plugin-styled-components": "^1.5.1",
     "next": "^5.0.0",
+    "node-sass": "^4.7.2",
     "prop-types": "^15.6.1",
     "raketa-ui": "^1.0.1",
     "react": "^16.2.0",

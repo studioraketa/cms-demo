@@ -1,5 +1,6 @@
 import AdminBuilder from '../components/AdminBuilder';
 import library from '../components/widgets';
+import Default from '../components/layouts/Default.js'
 
 const PAGE = {
   id: null,
@@ -10,5 +11,7 @@ const PAGE = {
 }
 
 export default () => (
-  <AdminBuilder library={library} page={PAGE} />
+  <Default>
+    <AdminBuilder library={library} page={PAGE} />
+  </Default>
 )

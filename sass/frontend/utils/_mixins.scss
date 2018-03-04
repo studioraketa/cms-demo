@@ -1,0 +1,44 @@
+$bp-phone: "(max-width: 600px)";
+$bp-mobile: "(max-width: 939px)";
+$bp-tablet: "(min-width: 780px)";
+$bp-desktop: "(min-width: 940px)";
+$bp-laptop: "(min-width: 940px) and (max-width: 1440px)";
+
+// Media Queries
+@mixin bp($point) {
+  @if $point == $bp-desktop {
+    @media #{$bp-desktop} { @content; }
+  }
+  @else if $point == $bp-mobile {
+    @media #{$bp-mobile}  { @content; }
+  }
+  @else if $point == $bp-phone {
+    @media #{$bp-phone}  { @content; }
+  }
+  @else if $point == $bp-laptop {
+    @media #{$bp-laptop}  { @content; }
+  }
+  @else if $point == $bp-tablet {
+    @media #{$bp-tablet}  { @content; }
+  }
+}
+
+
+@mixin aspect-ratio($width, $height) {
+  position: relative;
+  &:before {
+    display: block;
+    content: "";
+    width: 100%;
+    padding-top: ($height / $width) * 100%;
+  }
+  > .content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+  }
+}

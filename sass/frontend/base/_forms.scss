@@ -1,0 +1,66 @@
+// #{$all-text-inputs} {
+//   display: block;
+//   width: 100%;
+//   padding: 0.3em .5em;
+//   font-size: em(16, $base-font-size);
+//   font-family: $base-font;
+//   line-height: $base-line-height;
+//   border: 1px solid $grey-middle-1 !important;
+//   background: $white;
+//   border-radius: 2px;
+
+//   &:disabled {
+//     background-color: $grey-light;
+//     cursor: not-allowed;
+//   }
+// }
+
+// #{$all-text-inputs-focus},
+// #{$all-text-inputs-hover} {
+//   outline: none;
+// }
+
+// #{$all-text-inputs-active} {
+//   outline: none;
+// }
+
+// label {
+//   display: block;
+//   margin-bottom: .3em;
+//   text-transform: uppercase;
+//   font-size: .85em;
+//   font-weight: bold;
+//   cursor: pointer;
+// }
+
+// textarea { resize: vertical; }
+
+// .form-group {
+//   margin-bottom: 1em;
+
+//   &.has-error {
+//     label, .help-block { color: $red; }
+//     input, select { border-color: $red !important; }
+//   }
+// }
+
+// .radio-group {
+//   .group-label {
+//     margin-bottom: 1em;
+//     font-weight: bold;
+//     font-size: .75em;
+//     text-transform: uppercase;
+//   }
+
+//   label {
+//     display: block;
+//     width: 100%;
+//     margin-bottom: .5em;
+//     font-weight: normal;
+//     text-transform: none;
+
+//     input {
+//       margin-right: .5em;
+//     }
+//   }
+// }

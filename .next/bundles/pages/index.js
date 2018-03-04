@@ -166,6 +166,60 @@ var _default = AdminBuilder;
 
 /***/ }),
 
+/***/ "./components/layouts/Default.js":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* WEBPACK VAR INJECTION */(function(module) {/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__("./node_modules/react/cjs/react.development.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__sass_styles_scss__ = __webpack_require__("./sass/styles.scss");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__sass_styles_scss___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__sass_styles_scss__);
+var _jsxFileName = '/Users/vestimir/dev/os/cms-demo/components/layouts/Default.js';
+
+
+(function () {
+  var enterModule = __webpack_require__("./node_modules/react-hot-loader/patch.js").enterModule;
+
+  enterModule && enterModule(module);
+})();
+
+
+
+var _default = function _default(_ref) {
+  var children = _ref.children;
+  return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+    'div',
+    {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 4
+      }
+    },
+    children
+  );
+};
+
+/* harmony default export */ __webpack_exports__["a"] = (_default);
+;
+
+(function () {
+  var reactHotLoader = __webpack_require__("./node_modules/react-hot-loader/patch.js").default;
+
+  var leaveModule = __webpack_require__("./node_modules/react-hot-loader/patch.js").leaveModule;
+
+  if (!reactHotLoader) {
+    return;
+  }
+
+  reactHotLoader.register(_default, 'default', '/Users/vestimir/dev/os/cms-demo/components/layouts/Default.js');
+  leaveModule(module);
+})();
+
+;
+/* WEBPACK VAR INJECTION */}.call(__webpack_exports__, __webpack_require__("./node_modules/webpack/buildin/harmony-module.js")(module)))
+
+/***/ }),
+
 /***/ "./components/widgets/ArticleTitleWidget.js":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -8110,6 +8164,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__components_AdminBuilder__ = __webpack_require__("./components/AdminBuilder.js");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__components_widgets__ = __webpack_require__("./components/widgets/index.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__components_layouts_Default_js__ = __webpack_require__("./components/layouts/Default.js");
 var _jsxFileName = '/Users/vestimir/dev/os/cms-demo/pages/index.js';
 
 
@@ -8118,6 +8173,7 @@ var _jsxFileName = '/Users/vestimir/dev/os/cms-demo/pages/index.js';
 
   enterModule && enterModule(module);
 })();
+
 
 
 
@@ -8131,11 +8187,20 @@ var PAGE = {
 };
 
 var _default = function _default() {
-  return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1__components_AdminBuilder__["a" /* default */], { library: __WEBPACK_IMPORTED_MODULE_2__components_widgets__["a" /* default */], page: PAGE, __source: {
-      fileName: _jsxFileName,
-      lineNumber: 13
-    }
-  });
+  return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+    __WEBPACK_IMPORTED_MODULE_3__components_layouts_Default_js__["a" /* default */],
+    {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 14
+      }
+    },
+    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1__components_AdminBuilder__["a" /* default */], { library: __WEBPACK_IMPORTED_MODULE_2__components_widgets__["a" /* default */], page: PAGE, __source: {
+        fileName: _jsxFileName,
+        lineNumber: 15
+      }
+    })
+  );
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (_default);

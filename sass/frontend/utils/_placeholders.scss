@@ -1,0 +1,15 @@
+%flex-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+%bg-image {
+  background-position: center center;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+}
+
+%full-width {
+  display: block;
+  width: 100%;
+}

@@ -204,6 +204,34 @@ __WEBPACK_IMPORTED_MODULE_1__raketa_cms_raketa_cms__["PageBuilder"].defaultProps
 
 /***/ }),
 
+/***/ "./components/layouts/Default.js":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__("react");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__sass_styles_scss__ = __webpack_require__("./sass/styles.scss");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__sass_styles_scss___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__sass_styles_scss__);
+var _jsxFileName = '/Users/vestimir/dev/os/cms-demo/components/layouts/Default.js';
+
+
+
+/* harmony default export */ __webpack_exports__["a"] = (function (_ref) {
+  var children = _ref.children;
+  return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+    'div',
+    {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 4
+      }
+    },
+    children
+  );
+});
+
+/***/ }),
+
 /***/ "./components/widgets/ArticleTitleWidget.js":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -1309,7 +1337,9 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__components_AdminBuilder__ = __webpack_require__("./components/AdminBuilder.js");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__components_widgets__ = __webpack_require__("./components/widgets/index.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__components_layouts_Default_js__ = __webpack_require__("./components/layouts/Default.js");
 var _jsxFileName = '/Users/vestimir/dev/os/cms-demo/pages/index.js';
+
 
 
 
@@ -1323,12 +1353,28 @@ var PAGE = {
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (function () {
-  return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1__components_AdminBuilder__["a" /* default */], { library: __WEBPACK_IMPORTED_MODULE_2__components_widgets__["a" /* default */], page: PAGE, __source: {
-      fileName: _jsxFileName,
-      lineNumber: 13
-    }
-  });
+  return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+    __WEBPACK_IMPORTED_MODULE_3__components_layouts_Default_js__["a" /* default */],
+    {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 14
+      }
+    },
+    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1__components_AdminBuilder__["a" /* default */], { library: __WEBPACK_IMPORTED_MODULE_2__components_widgets__["a" /* default */], page: PAGE, __source: {
+        fileName: _jsxFileName,
+        lineNumber: 15
+      }
+    })
+  );
 });
+
+/***/ }),
+
+/***/ "./sass/styles.scss":
+/***/ (function(module, exports) {
+
+
 
 /***/ }),
 
