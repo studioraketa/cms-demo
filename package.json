@@ -2,7 +2,7 @@
   "scripts": {
     "dev": "next",
     "build-css": "node-sass-chokidar ./sass/styles.scss -o ./static --output-style compressed --source-map true",
-    "build": "next build && next export",
+    "build": "next build",
     "start": "next dev"
   },
   "dependencies": {
