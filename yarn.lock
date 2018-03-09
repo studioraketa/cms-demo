@@ -18,7 +18,7 @@
 
 "@raketa-cms/raketa-cms@https://github.com/studioraketa/raketa-cms.git":
   version "1.0.2"
-  resolved "https://github.com/studioraketa/raketa-cms.git#798284bfa1762771d2c6c062c1d867ae50a0d2a7"
+  resolved "https://github.com/studioraketa/raketa-cms.git#a2f11000c2b522d6b4bcbcd00d41846df0eaf2b1"
   dependencies:
     jquery "^3.3.1"
     prop-types "^15.6.1"
@@ -4606,8 +4606,8 @@ react-dom@^16.2.0:
     prop-types "^15.6.0"
 
 react-dropzone@^4.2.8:
-  version "4.2.8"
-  resolved "https://registry.yarnpkg.com/react-dropzone/-/react-dropzone-4.2.8.tgz#27ce163544d92c75734b0e1e54c471979587e737"
+  version "4.2.9"
+  resolved "https://registry.yarnpkg.com/react-dropzone/-/react-dropzone-4.2.9.tgz#98156ce4d4cb018f7c5099eeb2eaff6dc21836fd"
   dependencies:
     attr-accept "^1.0.3"
     prop-types "^15.5.7"
@@ -4638,8 +4638,8 @@ react-no-ssr@^1.1.0:
     babel-runtime "6.x.x"
 
 react-rte@^0.16.0:
-  version "0.16.0"
-  resolved "https://registry.yarnpkg.com/react-rte/-/react-rte-0.16.0.tgz#b0e675f621f34f3f1e27429894b8a8e0d576a1af"
+  version "0.16.1"
+  resolved "https://registry.yarnpkg.com/react-rte/-/react-rte-0.16.1.tgz#e345664c87e992d15ec053b406f51ffac6e86622"
   dependencies:
     babel-runtime "^6.23.0"
     class-autobind "^0.1.4"
