@@ -3,10 +3,10 @@
     "dev": "next",
     "build-css": "node-sass-chokidar ./sass/styles.scss -o ./static --output-style compressed --source-map true",
     "build": "next build",
-    "start": "next dev"
+    "start": "next start"
   },
   "dependencies": {
-    "@raketa-cms/raketa-cms": "https://github.com/studioraketa/raketa-cms.git",
+    "@raketa-cms/raketa-cms": "^1.0.4",
     "@zeit/next-sass": "^0.1.1",
     "babel-plugin-styled-components": "^1.5.1",
     "jquery": "^3.3.1",
